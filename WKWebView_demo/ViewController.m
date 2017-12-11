@@ -25,6 +25,8 @@
 //    UIWebView *web = [[UIWebView alloc] initWithFrame:self.view.bounds];
 //    [web loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.baidu.com"]]];
 //    [self.view addSubview:web];
+    
+    //只是在测试而已
 }
 
 
