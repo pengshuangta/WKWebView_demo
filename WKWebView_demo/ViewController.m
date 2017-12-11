@@ -7,8 +7,8 @@
 //
 
 #import "ViewController.h"
-
-@interface ViewController ()
+#import <WebKit/WebKit.h>
+@interface ViewController ()<WKUIDelegate,WKNavigationDelegate,WKScriptMessageHandler>
 
 @end
 
@@ -17,6 +17,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    WKWebView *wkWeb = [[WKWebView alloc]initWithFrame:self.view.bounds];
+    [wkWeb loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.baidu.com"]]];
+    [self.view addSubview:wkWeb];
+    
+//    UIWebView *web = [[UIWebView alloc] initWithFrame:self.view.bounds];
+//    [web loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.baidu.com"]]];
+//    [self.view addSubview:web];
 }
 
 
