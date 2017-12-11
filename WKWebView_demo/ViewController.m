@@ -22,9 +22,17 @@
 //    [wkWeb loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.baidu.com"]]];
 //    [self.view addSubview:wkWeb];
     
+<<<<<<< HEAD
     UIWebView *web = [[UIWebView alloc] initWithFrame:self.view.bounds];
     [web loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.baidu.com"]]];
     [self.view addSubview:web];
+=======
+//    UIWebView *web = [[UIWebView alloc] initWithFrame:self.view.bounds];
+//    [web loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.baidu.com"]]];
+//    [self.view addSubview:web];
+    
+    //只是在测试而已
+>>>>>>> WKWebView_demo_V1.0
 }
 
 
