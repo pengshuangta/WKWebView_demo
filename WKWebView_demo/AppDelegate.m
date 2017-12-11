@@ -6,7 +6,7 @@
 //  Copyright © 2017年 pst. All rights reserved.
 //
 
-// test
+// version 1
 #import "AppDelegate.h"
 
 @interface AppDelegate ()
